@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "actions": {
+    "heartbeat": {
+      "description": "Pede ao servidor Roblox para registrar uma resposta no log.",
+      "params": []
+    },
+    "announce": {
+      "description": "Publica uma mensagem curta no chat da experiência.",
+      "params": ["message"]
+    },
+    "require_module": {
+      "description": "Carrega um ModuleScript local previamente aprovado pelo desenvolvedor.",
+      "params": ["module"]
+    },
+    "require_asset": {
+      "description": "Carrega um asset ID explicitamente aprovado no servidor Roblox.",
+      "params": ["assetId"]
+    }
+  }
+}
